@@ -6,4 +6,4 @@ WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 28.9
 SELECT last_name FROM customer
 WHERE first_name = 'Mary';
 SELECT * FROM film
-WHERE  length <= 50 AND rental_rate NOT IN (2.99, 4.99);
+WHERE  length <= 50 AND rental_rate !=2.99 AND rental_rate != 4.99;
